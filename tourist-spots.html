@@ -36,34 +36,44 @@
       <p>Discover famous landmarks and cultural attractions in major cities. 🏙️</p>
     </section>
 
-    <section>
-      <h2>Book a Tour Package 💳</h2>
-      <p>Choose a package and pay easily via PayPal:</p>
+    <!-- Styled Booking Section -->
+    <section class="booking-section">
+      <h2>Book Your Tour Packages 💳</h2>
+      <p>Choose a package and pay securely via PayPal:</p>
 
-      <p>Beach Paradise - $5</p>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID_HERE">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
-               border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      </form>
+      <div class="packages">
+        <div class="package">
+          <h3>Beach Paradise</h3>
+          <p>Price: $5</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID_HERE">
+            <button type="submit" class="paypal-btn">Buy Now</button>
+          </form>
+        </div>
 
-      <p>Mountain Adventure - $10</p>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID_HERE">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
-               border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      </form>
+        <div class="package">
+          <h3>Mountain Adventure</h3>
+          <p>Price: $10</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID_HERE">
+            <button type="submit" class="paypal-btn">Buy Now</button>
+          </form>
+        </div>
 
-      <p>Full Package - $20</p>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID_HERE">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
-               border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      </form>
+        <div class="package">
+          <h3>Full Package</h3>
+          <p>Price: $20</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID_HERE">
+            <button type="submit" class="paypal-btn">Buy Now</button>
+          </form>
+        </div>
+      </div>
     </section>
+
   </main>
 
   <footer>
